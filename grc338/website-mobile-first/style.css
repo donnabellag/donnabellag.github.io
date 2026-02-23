@@ -2,6 +2,9 @@
 
 html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
 
+body { 
+	font-family: sans-serif;
+}
 
 div.home-container { 
 	background: url(images/home-background.jpg) center center fixed;
@@ -19,7 +22,7 @@ div.container {
 
 
 main { 
-	padding: ____ ____ ____;
+	padding: 1em 2em 1em;
 	}
 
 img {
@@ -28,9 +31,9 @@ img {
 }
 
 header {
-	display: ____;
+	display: bold;
 	grid-template-columns: ____ ____;
-	background: ____;
+	background: rgb(200, 200, 200);
 	padding: ____ ____;
 	}
 
@@ -85,14 +88,14 @@ p {
 	}
 	
 p.description {
-	grid-column: ____;
-	margin: ____;
+	grid-column: 1-4;
+	margin: 1 em;
 	}
 	
 p.price {
 	grid-row: ____;
 	grid-column: ____;
-	color: ____;
+	color: rgb(250, 0, 0);
 	text-align: ____;
 	margin: ____;
 	}
@@ -112,7 +115,7 @@ nav ul li a {
 
 p.slogan {
 	font-size: ____;
-	font-family: ____;
+	font-family: serif;
 	font-style: ____;
 	margin: ____ ____ ____;
 	color: ____;	
