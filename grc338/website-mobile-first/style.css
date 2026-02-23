@@ -7,7 +7,7 @@ body {
 }
 
 div.home-container { 
-	background: url(images/home-background.jpg) center center fixed;
+	background: url(wesbite-mobile-first/home-background.jpg) center center fixed;
 	background-size: cover;
 	position: relative;
 	min-height: 100vh;
@@ -31,14 +31,14 @@ img {
 }
 
 header {
-	display: bold;
-	grid-template-columns: ____ ____;
-	background: rgb(200, 200, 200);
-	padding: ____ ____;
+	display: grid;
+	grid-template-columns: 1fr auto;
+	background: rgb(204, 204, 204);
+	padding: 1em 1em;
 	}
 
 h1 {
-	width: ____;
+	width: 0.5em;
 	}
 
 h2, h3, h4 {
