@@ -1,21 +1,38 @@
-<!doctype html>  
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />  
+        <meta http-equiv="Pragma" content="no-cache" />  
+        <meta http-equiv="Expires" content="0" />  
          <link rel="stylesheet" type="text/css" href="https://grc-ribeiro.github.io/files/proposal.css">  <!-- Leave this line as is. -->
         <title>Gaetano's Pizzaria & Pasteria</title>
+         <link rel="stylesheet" href="style.css"/>
+        
     </head>
     <body>
-        <h1>Menu</h1>
-        <h2>Antipasti</h2> 
-            <ul> 
-                <li> 
-                    <h3>CESARE</h3>
-                    <p class="description">chopped romaine, parmigiano reggiano, house-made caesar dressing, pane al forno</p>
-                    <p class="price">$15.00</p>
-                </li>
+        <div class="container">
+            <header> 
+				<h1><a href="index.html"><img src="gaetanoslogo.svg" alt=""></a> </h1>
+					<nav>
+                        <ul>
+							<li><a href="about.html">About</a></li>
+							<li class="selected"> <a href="menu.html">Menu</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+			</header>
+            <main class="menu">
+                <h2>Menu</h2>
+                <h3>Antipasti</h3> 
+                <figure><img src="placeholder.jpg" alt=""></figure>
+                     <ul> 
+                         <li> 
+                          <h4>Cesare</h4>
+                             <p class="description">chopped romaine, parmigiano reggiano, house-made caesar dressing, pane al forno</p>
+                             <p class="price">$15.00</p>
+                        </li>
+
                         <li>
                             <h4>Insalata Passione</h4>
 							<p class="description">spring mix, candied walnuts, prosciutto chips, goat cheese dressing, passion fruit vinaigrette</p>
@@ -49,10 +66,12 @@
 
 							<p class="price">$24.00</p>
                         </li>
+                    </ul>
 
                         
-						<h3>Pasta</h3>
-
+				<h3>Pasta</h3>
+                <figure><img src="placeholder.jpg" alt=""></figure>
+                    <ul>
 						<li> 
                             <h4>Cappellini Pomodoro</h4>
                                 <p class="description">angel hair pasta, sautéd diced tomatoes, garlic, olive oil, basil</p>
@@ -89,9 +108,11 @@
 
 							<p class="price">$36.00</p>
                         </li>
+                    </ul>
 
-						<h3>Pizza</h3>
-
+			    <h3>Pizza</h3>
+                    <figure><img src="placeholder.jpg" alt=""></figure>
+                    <ul>
 						<li>
                             <h4>Margherita</h4>
 
@@ -155,9 +176,11 @@
 
 							<p class="price">$26.00</p>
                         </li>
+                    </ul> 
 
-						<h3>Dolci</h3>
-						
+				<h3>Dolci</h3>
+                    <figure><img src="placeholder.jpg" alt=""></figure>
+					<ul>
                         <li>
                             <h4>Panna Cotta ai Lamponi</h4>
                                 <p class="description">chilled gelatin cream dessert, rasberry coulis, whipped cream</p>
@@ -192,6 +215,13 @@
 
 							<p price="price">$16.00</p>
 						</li>
-					</ul>
-                </body>
+			        </ul>
+            </main>
+
+            <footer>
+                 <p>© All rights reserved. Gaetano's, 2025.</p>
+            </footer>
+        </div>
+    </body>
+</html>
                 
