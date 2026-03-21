@@ -6,7 +6,7 @@ body {
 	font-family: "futura-100", sans-serif;
     font-weight: 400;
     font-style: normal;
-	background-color: rgb(203, 37, 37);
+	background-color: rgb(179, 179, 179);
 	padding: 0em 2em 0em 2em;
 }
 
@@ -152,9 +152,9 @@ nav ul li a {
 p.slogan { 
     margin-top: 3em; 
     margin-bottom: 1.5em;
-    font-family: serif; 
-    font-weight: 400; 
     font-style: italic;
+    font-family: "estratto-variable", serif;
+    font-variation-settings: "wght" 700;
     font-size: 3.5rem;
     color: rgb(255, 255, 255);
 }
@@ -173,7 +173,8 @@ footer {
 
 address {
     display: block;
-    font-family: sans-serif;
+    font-family: "futura-100", sans-serif;
+    font-weight: 300;
     font-size: 0.9rem;  
     line-height: 1.4;
     color: rgb(203, 37, 37);
