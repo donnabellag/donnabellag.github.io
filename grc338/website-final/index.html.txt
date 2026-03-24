@@ -1,0 +1,41 @@
+<!doctype html> 
+<html lang="en">
+    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta charset="UTF-8">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />  
+        <meta http-equiv="Pragma" content="no-cache" />  
+        <meta http-equiv="Expires" content="0" />  
+         <link rel="stylesheet" type="text/css" href="https://grc-ribeiro.github.io/files/proposal.css">  <!-- Leave this line as is. -->
+		 <title>Gaetano's Pizzaria & Pasteria</title>
+		 <link rel="stylesheet" href="style.css"/>
+		 <link rel="stylesheet" href="https://use.typekit.net/nku2jag.css">
+		 <link rel="stylesheet" href="https://use.typekit.net/nku2jag.css">
+		
+    </head>
+    
+	<body>
+		<div class="home-container">
+			<header> 
+				<h1><a href="index.html"><img src="gaetanoslogo.svg" alt="Gaetano's logo."></a> </h1>
+					<nav>
+						<ul>
+							<li><a href="about.html">About</a></li>
+							<li><a href="menu.html">Menu</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+			</header>
+			
+			<main class="home">
+				<p class="slogan"> Welcome to Gaetano's! Napoletana-style Pizzaria & Pasteria</p>
+				<address>814 Northbeach Boulevard, San Francisco, CA 94133</address>
+				<address>(650) 449 1782</address>
+			</main>
+           
+			<footer>
+                <p>© All rights reserved. Gaetano's, 2025.</p>
+            </footer>
+        </div>
+    </body>
+</html> 
